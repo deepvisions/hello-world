@@ -1,3 +1,8 @@
+安装 git 和 tortoisegit
+-----------------------
+
+`参考 <tortoiseGit-tut.rst>`_ 
+
 步骤0 创建repository
 --------------------
 1. 使用TortoiseGit 在本地创建一个新repository "hello-world"
