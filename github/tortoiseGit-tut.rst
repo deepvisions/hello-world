@@ -45,6 +45,9 @@
 .. image:: img-tortoise/tortoise8.png
     :width: 300
     :height: 240
+
+填写用户名和email    
+
 .. image:: img-tortoise/tortoise9.png
     :width: 300
     :height: 240
