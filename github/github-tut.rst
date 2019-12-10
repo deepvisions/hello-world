@@ -5,7 +5,30 @@
 
 步骤0 创建repository
 --------------------
+**方法1**
+
+登陆github 例如https://github.com/deepvisions 
+
+1. 点击 repositories 
+
+2. 点击 "New"
+
+.. image:: img-github/github-create0.png
+
+3. 输入项目名称
+
+4。点击 Create Repository
+
+.. image:: img-github/github-create1.png
+
+5. 复制url
+
+.. image:: img-github/github-create2.png
+
+**方法2**
+
 1. 使用TortoiseGit 在本地创建一个新repository "hello-world"
+
 
 .. image:: create-repo.png   
 
