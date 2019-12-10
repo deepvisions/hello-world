@@ -17,7 +17,7 @@
 
 3. 输入项目名称
 
-4。点击 Create Repository
+4. 点击 Create Repository
 
 .. image:: img-github/github-create1.png
 
