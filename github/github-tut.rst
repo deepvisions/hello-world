@@ -25,6 +25,14 @@
 
 .. image:: img-github/github-create2.png
 
+6. 在windows桌面点击右键, 点击 "Git Clone", 然后点击 "OK" 
+
+.. image:: img-tortoise/tortoise-clone.png
+
+.. image:: img-tortoise/tortoise-clone-ok.png
+
+7. 桌面会生成一个名为hello-world的文件夹. 在文件夹内创建一个名为README拓展名为md的记事本文件
+
 **方法2**
 
 1. 使用TortoiseGit 在本地创建一个新repository "hello-world"
@@ -46,9 +54,9 @@
 
 在客户端中点击 "git clone", 在弹窗中点击OK
 
-.. image:: git-clone.png
+.. image:: img-tortoise/tortoise-clone.png
 
-.. image:: git-clone-ok.png
+.. image:: img-tortoise/tortoise-clone-ok.png
 
 步骤2 创建新分支, 提交新功能
 ----------------------------
