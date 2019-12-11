@@ -33,6 +33,23 @@
 
 7. 桌面会生成一个名为hello-world的文件夹. 在文件夹内创建一个名为README拓展名为md的记事本文件
 
+8. 右键点击README.md,然后点击"Add"  
+
+.. image:: img-tortoise/tortoise-add.png   
+
+9. 在文件夹空白处点击右键, 然后点击 "Git Commit->master"
+
+.. image:: img-tortoise/tortoise-commit-master.png   
+
+.. image:: img-tortoise/tortoise-commit-msg.png   
+
+.. image:: img-tortoise/tortoise-push.png   
+
+.. image:: img-tortoise/tortoise-push-close.png   
+
+.. image:: img-tortoise/tortoise-push-ok.png   
+
+
 **方法2**
 
 1. 使用TortoiseGit 在本地创建一个新repository "hello-world"
