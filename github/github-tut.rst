@@ -41,13 +41,18 @@
 
 .. image:: img-tortoise/tortoise-commit-master.png   
 
+10. 填写变更说明,然后点击 "Commit"
+
 .. image:: img-tortoise/tortoise-commit-msg.png   
 
-.. image:: img-tortoise/tortoise-push.png   
+11. 点击 "Push", 然后点击"OK"
 
+.. image:: img-tortoise/tortoise-push.png   
+.. image:: img-tortoise/tortoise-push-ok.png   
+
+12. 上传完毕后，点击"close"
 .. image:: img-tortoise/tortoise-push-close.png   
 
-.. image:: img-tortoise/tortoise-push-ok.png   
 
 
 **方法2**
