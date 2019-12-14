@@ -134,7 +134,6 @@
 | Create Pull Request 按钮|             |
 +------------+------------+-------------+
 | base branch 选择master  |             |
-|                         |             |  
 | compare branch 选择     |             |
 | readme-edits            |             |
 |                         |             | 
@@ -155,7 +154,9 @@
 
 步骤4 合并(Merge) Pull Request
 -------------------------------
-点击merge pull request按钮 
+- 点击Merge Pull Request按钮, 
+- 然后点击Confirm merge
+- 最后点击 Delete branch 按钮删除readme-edit分支  
 
 |merge-btn|
 |delete-btn|
