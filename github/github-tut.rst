@@ -7,7 +7,7 @@
 --------------------
 **方法1**
 
-登陆github 例如https://github.com/deepvisions 
+登陆github(输入用户名和密码) 例如https://github.com/deepvisions 
 
 1. 点击 repositories 
 
@@ -51,6 +51,7 @@
 .. image:: img-tortoise/tortoise-push-ok.png   
 
 12. 上传完毕后，点击"close"
+
 .. image:: img-tortoise/tortoise-push-close.png   
 
 
@@ -58,35 +59,79 @@
 ----------------------
 **从github clone hello-world repository** 
 
-在github中点击 绿色"Clone or Download" 按钮后复制url
+- 在浏览器中打开 https://github.com/deepvisions 
+
+- 点击 "repositories", 然后点击 "hello-world"
+
+.. image:: img-github/github-clone-repo.png
+
+- 点击 绿色"Clone or Download" 按钮后复制url
 
 .. image:: clone-btn.png
 
-在客户端中点击 "git clone", 在弹窗中点击OK
+- 在Windows中 右键点击桌面 "git clone", 在弹窗中点击OK
 
 .. image:: img-tortoise/tortoise-clone.png
 
 .. image:: img-tortoise/tortoise-clone-ok.png
 
+- Clone完成后,桌面会生成一个名为hello-world的文件夹. 
+
 步骤2 创建新分支, 提交新功能
 ----------------------------
-创建一个新分支readme-edits用于开发新功能或者修改bug。完成新功能后点击git-commit提交修改, 然后push 到hello-world     
+**每当开发一个新功能或者修复一个bug时，需要创建一个新分支, 当开发完成后merge回原分支**
 
-.. image:: git-create-branch.png
+.. image:: img-github/github-branching.png
+   :height: 150 px
+   :width: 800 px
 
-.. image:: git-commit.png
+- 创建一个新分支readme-edit. 在"hello-word"文件夹里点击右键 在弹出菜单中选择"Switch/Checkout..."
+
+.. image:: img-tortoise/tortoise-checkout.png
+
+- 在弹出对话框中 勾选"Create New Branch",并填写分支名称
+
+.. image:: img-tortoise/tortoise-checkout-ok.png
+
+- 修改README.md 中的内容, 保存并关闭
+  
+- 完成后右键点击hello-word文件夹空白处, 在弹出菜单里点击"Git-Commit->readme-edit"提交修改     
+
+.. image:: img-tortoise/tortoise-commit-feature.png
+
+- 填写变更说明
+
+.. image:: img-tortoise/tortoise-commit-feature-msg.png
+
+- 然后push 到hello-world 
+
+.. image:: img-tortoise/tortoise-commit-feature-push.png
+
+- 点击OK
+
+.. image:: img-tortoise/tortoise-commit-feature-ok.png
+
+- 点击close
+
+.. image:: img-tortoise/tortoise-commit-feature-close.png
+
+
 
 步骤3 Pull Request 
 ------------------   
-**在github上选择pull request**  
+再次登陆github(使用用户名和密码) 进行 Pull Request 操作  
+
 
 +-------------------------+-------------+
 | 步骤                    | 截图        | 
 +=========================+=============+
-| 点击Pull Request tab    |  |pr-tab|   |
+| 点击Pull Request 标签   |  |pr-tab|   |
+| 在Pull Request 页面     |             |
+| 点击绿色New pull request|             |
+| 按钮                    |             | 
 +-------------------------+-------------+
-| 点击绿色                |             |
-| Create Pull Request 按钮| |create-pr| |
+| 点击绿色                | |create-pr| |
+| Create Pull Request 按钮|             |
 +------------+------------+-------------+
 | base branch 选择master  |             |
 |                         |             |  
